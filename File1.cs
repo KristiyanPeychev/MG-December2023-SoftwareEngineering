@@ -5,6 +5,11 @@ public class Person
     public Address Address { get; set; }
 }
 
+public class Asian: Person
+{
+    public bool StreachedEyes { get; set; }
+}
+    
 public class BlackPerson: Person
 {
     public int Chicken { get; set; }

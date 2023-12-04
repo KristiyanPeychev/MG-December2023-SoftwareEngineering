@@ -5,3 +5,7 @@ public class City
     public Country Country { get; set; }
 }
 
+public class Sofia: City
+{
+    public bool Capital { get; set; }
+}

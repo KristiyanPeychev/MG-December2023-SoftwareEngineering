@@ -4,3 +4,8 @@ public class City
     public string ZipCode { get; set; }
     public Country Country { get; set; }
 }
+
+public class Plovdiv: City
+{
+    public string OldNames { get; set; }
+}
