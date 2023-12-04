@@ -13,4 +13,5 @@ public class Asian: Person
 public class BlackPerson: Person
 {
     public int Chicken { get; set; }
+    public bool KoolAid { get; set; } 
 }
