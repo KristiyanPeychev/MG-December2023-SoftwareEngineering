@@ -4,3 +4,8 @@ public class Person
     public int Age { get; set; }
     public Address Address { get; set; }
 }
+
+public class Asian: Person
+{
+    public bool StreachedEyes { get; set; }
+}
