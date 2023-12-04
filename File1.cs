@@ -4,3 +4,8 @@ public class Person
     public int Age { get; set; }
     public Address Address { get; set; }
 }
+
+public class BlackPerson: Person
+{
+    public int Chicken { get; set; }
+}
